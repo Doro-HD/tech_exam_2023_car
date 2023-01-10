@@ -11,7 +11,6 @@ import javax.persistence.ManyToOne;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-@Builder
 public class ReservationResponse {
 
     public ReservationResponse(Reservation reservation) {
